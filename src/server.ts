@@ -1,4 +1,3 @@
-import crypto from 'node:crypto'
 import fastify from 'fastify'
 import { knex } from './database'
 
