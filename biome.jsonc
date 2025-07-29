@@ -24,5 +24,11 @@
         "useSortedClasses": "off"
       }
     }
-  }
+  },
+  "files": {
+        "ignore": [
+          "build/**",
+          "node_modules"
+        ]
+    }
 }
