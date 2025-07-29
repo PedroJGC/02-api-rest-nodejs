@@ -25,10 +25,13 @@
       }
     }
   },
-  "files": {
-        "ignore": [
-          "build/**",
-          "node_modules"
-        ]
+  "overrides": [
+    {
+      "javascript": {
+        "formatter": {
+          "semicolons": "asNeeded"
+        }
+      }
     }
+  ]
 }
